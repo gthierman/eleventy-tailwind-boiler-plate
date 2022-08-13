@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<span x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></span>
+<div x-data="{ open: false }" >
+<button @click="open = true">Expand</button>
+ <span x-show="open">
+      Content...
+    </span>
+</div>

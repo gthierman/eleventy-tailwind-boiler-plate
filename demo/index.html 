@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+Index
+
+<span x-data="{message:'🤖 Hello World 🤓'}" x-text="message"></span>
