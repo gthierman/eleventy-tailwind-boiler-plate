@@ -10,5 +10,9 @@ module.exports = function (eleventyConfig) {
     return now
   })
 
+  eleventyConfig.addPassthroughCopy({
+    './node_modules/alpinejs/dist/cdn.js': './js/alpine.js',
+  })
+
   eleventyConfig.addLayoutAlias('default', 'layouts/default.njk');
 }; 
