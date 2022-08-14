@@ -16,4 +16,13 @@ module.exports = function (eleventyConfig) {
 
   // Layout Aliases
   eleventyConfig.addLayoutAlias('default', 'layouts/default.njk');
+
+  return {
+    dir: {
+      input: "src",
+      includes: "_includes",
+      data: "_data",
+      output: "_site"
+    }
+  }
 }; 

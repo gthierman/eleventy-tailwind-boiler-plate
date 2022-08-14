@@ -12,12 +12,12 @@ npm start
 ```
 
 ## Disable Alpine.js
-To disable alpine.js open `.eleventy.js` and search for 
+To disable alpine.js open `src/_data/site.json` and search for 
 ```
-eleventyConfig.addGlobalData("alpinejs", true);
+"alpinejs" : true
 ```
 
 Change `true` to `false`
 ```
-eleventyConfig.addGlobalData("alpinejs", false);
+"alpinejs" : false
 ```
