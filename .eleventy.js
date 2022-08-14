@@ -16,7 +16,4 @@ module.exports = function (eleventyConfig) {
 
   // Layout Aliases
   eleventyConfig.addLayoutAlias('default', 'layouts/default.njk');
-
-  // Global Data
-  eleventyConfig.addGlobalData("alpinejs", true);
 }; 
