@@ -2,10 +2,5 @@
 layout: default
 ---
 
-<span x-data="{message:'🤖 Hello World 🤓'}" x-text="message">Poo</span>
-<div x-data="{ open: false }" >
-<button @click="open = true">Expand</button>
- <span x-show="open">
-      Content...
-    </span>
-</div>
+<h1 class="text-4xl text-center pt-20">Eleventy boilerplate</h1>
+<h2 class="text-center" x-if="site.alpinejs" x-data="{message:'Alpine.js is enabled.'}" x-text="message">Alpine.js is not enabled.</h2>
