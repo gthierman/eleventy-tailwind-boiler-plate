@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/main.css?v={% version %}"/>
     {% block head %}{% endblock %}
     {% if site.alpinejs %}
-      <script src="/js/alpine.js?v={% version %}"></script>
+      <script src="/js/alpine.js?v={% version %}" defer></script>
     {% endif %}
   </head>
   <body>
