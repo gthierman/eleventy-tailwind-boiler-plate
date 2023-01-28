@@ -10,14 +10,3 @@ Run the code:
 ```
 npm start
 ```
-
-## Disable Alpine.js
-To disable alpine.js open `src/_data/site.json` and search for 
-```
-"alpinejs" : true
-```
-
-Change `true` to `false`
-```
-"alpinejs" : false
-```
