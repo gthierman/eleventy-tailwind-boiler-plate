@@ -1,4 +1,4 @@
-# Eleventy boilerplate with Tailwind and optional Alpine.js
+# Eleventy boilerplate with Tailwind
 
 ## Basic setup
 Install dependencies:
